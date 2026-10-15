@@ -1,3 +1,6 @@
+// Given a number N and an array A of N numbers. Print the lowest number and its position.
+// Note: if there are more than one answer print first one's position.
+
 #include<stdio.h>
 
 int main(){

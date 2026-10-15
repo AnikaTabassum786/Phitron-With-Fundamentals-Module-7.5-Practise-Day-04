@@ -2,22 +2,16 @@
 
 int main(){
 
-    int n,x;
+    int n;
     scanf("%d",&n);
     int array[n];
-    int min[x];
-   int min_position;
+  
+    for(int i=0;i<n;i++){
+      scanf("%d",&array[i]);
 
-    for(int i=1;i<=n;i++){
-       scanf("%d",&array[i]);
-       if(min[x]>array[i]){
-         min[x]=array[i];
-          min_position = i;
-       }
-    //    printf("%d\n",i);
+      if(array[i]<=10){
+        printf("A[%d] = %d\n", i,array[i]);
+      }
     }
-    printf("%d ",min[x]);
-     printf("%d",min_position);
-
-    return 0;
+     return 0;
 }
