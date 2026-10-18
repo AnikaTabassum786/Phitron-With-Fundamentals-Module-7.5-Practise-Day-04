@@ -1,4 +1,3 @@
- if (array[i] == 0)
-        {
-            printf("%d ", array[i]);
-        }
+if(i%3 !=0){
+    //      printf("%d ",i);
+    //   }
